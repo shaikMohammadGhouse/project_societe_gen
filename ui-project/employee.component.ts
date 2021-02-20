@@ -27,7 +27,7 @@ public getEmployee(EmployeeDto: emp): Observable<EmployeeDto>{
 	}
 	*/
 	
-	return this.httpClient.get('http://localhost:8080/demo/employee/{id}', options).pipe(
+	return this.httpClient.get('http://localhost:8080/demo/employee/id', options).pipe(
 		
 	);
 
